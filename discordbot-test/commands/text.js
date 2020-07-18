@@ -1,7 +1,5 @@
 module.exports = {};
-/*const accountSid = 'AC42c296905f3da4c64282ea917600ba6e';
-
-const authToken = '69cb3aa1bc2d0489dd70624ee5547433';
+/*
 
 const TWclient = require('twilio')(accountSid, authToken);
 
