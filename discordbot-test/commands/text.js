@@ -17,14 +17,12 @@ if (msg.startsWith('?text')) {
     message.channel.awaitMessages(filter, { max: 1, time: 10000 }).then(collected => {
 
 
-        //415-650-7823
-
         let textContent = `${collected.first().content}`
 
         TWclient.messages
             .create({
                 body: textContent,
-                from: '+14154309292',
+                from: '',
                 to: phoneNum
             })
             .then(message => console.log(message.sid));
