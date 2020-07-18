@@ -1,0 +1,30 @@
+{
+    "name": "discordbot-mysql",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon ./src/index.js",
+        "start": "node ./src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/opus": "^0.3.2",
+        "discord.js": "^12.2.0",
+        "dotenv": "^8.2.0",
+        "eslint": "^7.4.0",
+        "ffmpeg": "0.0.4",
+        "ffmpeg-static": "^4.2.5",
+        "fluent-ffmpeg": "^2.1.2",
+        "mysql2": "^2.1.0",
+        "opusscript": "0.0.7",
+        "twilio": "^3.47.0",
+        "twit": "^2.2.11",
+        "youtube-search": "^1.1.4",
+        "yt-search": "^2.0.1",
+        "ytdl-core": "^2.1.7"
+    }
+}
